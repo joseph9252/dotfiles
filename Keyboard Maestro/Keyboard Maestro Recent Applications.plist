@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.finder</string>
+		<key>Name</key>
+		<string>Finder</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Finder.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.iChat</string>
+		<key>Name</key>
+		<string>Messages</string>
+		<key>NewFile</key>
+		<string>/Applications/Messages.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.systempreferences</string>
+		<key>Name</key>
+		<string>System Preferences</string>
+		<key>NewFile</key>
+		<string>/Applications/System Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Stickies</string>
+		<key>Name</key>
+		<string>Stickies</string>
+		<key>NewFile</key>
+		<string>/Applications/Stickies.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.google.Chrome</string>
+		<key>Name</key>
+		<string>Google Chrome</string>
+		<key>NewFile</key>
+		<string>/Applications/Google Chrome.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.kakao.KakaoTalkMac</string>
+		<key>Name</key>
+		<string>KakaoTalk</string>
+		<key>NewFile</key>
+		<string>/Applications/KakaoTalk.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.postmanlabs.mac</string>
+		<key>Name</key>
+		<string>Postman</string>
+		<key>NewFile</key>
+		<string>/Applications/Postman.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.googlecode.iterm2</string>
+		<key>Name</key>
+		<string>iTerm</string>
+		<key>NewFile</key>
+		<string>/Applications/iTerm.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.expressvpn.ExpressVPN</string>
+		<key>Name</key>
+		<string>ExpressVPN</string>
+		<key>NewFile</key>
+		<string>/Applications/ExpressVPN.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.aaa.windscribe.windscribe</string>
+		<key>Name</key>
+		<string>Windscribe</string>
+		<key>NewFile</key>
+		<string>/Applications/Windscribe.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>notion.id</string>
+		<key>Name</key>
+		<string>Notion</string>
+		<key>NewFile</key>
+		<string>/Applications/Notion.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.microsoft.VSCode</string>
+		<key>Name</key>
+		<string>Visual Studio Code</string>
+		<key>NewFile</key>
+		<string>/Applications/Visual Studio Code.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Notes</string>
+		<key>Name</key>
+		<string>Notes</string>
+		<key>NewFile</key>
+		<string>/Applications/Notes.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.stairways.keyboardmaestro.editor</string>
+		<key>Name</key>
+		<string>Keyboard Maestro</string>
+		<key>NewFile</key>
+		<string>/Applications/Keyboard Maestro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.sequelpro.SequelPro</string>
+		<key>Name</key>
+		<string>Sequel Pro</string>
+		<key>NewFile</key>
+		<string>/Applications/Sequel Pro.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.agilebits.onepassword7</string>
+		<key>Name</key>
+		<string>1Password 7</string>
+		<key>NewFile</key>
+		<string>/Applications/1Password 7.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.QuickTimePlayerX</string>
+		<key>Name</key>
+		<string>QuickTime Player</string>
+		<key>NewFile</key>
+		<string>/Applications/QuickTime Player.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.tinyspeck.slackmacgap</string>
+		<key>Name</key>
+		<string>Slack</string>
+		<key>NewFile</key>
+		<string>/Applications/Slack.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.gnu.Emacs</string>
+		<key>Name</key>
+		<string>Emacs</string>
+		<key>NewFile</key>
+		<string>/Applications/Emacs.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.macpaw.CleanMyMac4</string>
+		<key>Name</key>
+		<string>CleanMyMac X</string>
+		<key>NewFile</key>
+		<string>/Applications/CleanMyMac X.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.microsoft.rdc.macos</string>
+		<key>Name</key>
+		<string>Microsoft Remote Desktop</string>
+		<key>NewFile</key>
+		<string>/Applications/Microsoft Remote Desktop.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.elasticprojects.abstract-desktop</string>
+		<key>Name</key>
+		<string>Abstract</string>
+		<key>NewFile</key>
+		<string>/Applications/Abstract.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Preview</string>
+		<key>Name</key>
+		<string>Preview</string>
+		<key>NewFile</key>
+		<string>/Applications/Preview.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.archiveutility</string>
+		<key>Name</key>
+		<string>Archive Utility</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Applications/Archive Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.iTunes</string>
+		<key>Name</key>
+		<string>iTunes</string>
+		<key>NewFile</key>
+		<string>/Applications/iTunes.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.TextEdit</string>
+		<key>Name</key>
+		<string>TextEdit</string>
+		<key>NewFile</key>
+		<string>/Applications/TextEdit.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.PremierePro.CC12</string>
+		<key>Name</key>
+		<string>Adobe Premiere Pro CC 2018</string>
+		<key>NewFile</key>
+		<string>/Applications/Adobe Premiere Pro CC 2018/Adobe Premiere Pro CC 2018.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.FaceTime</string>
+		<key>Name</key>
+		<string>FaceTime</string>
+		<key>NewFile</key>
+		<string>/Applications/FaceTime.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.keychainaccess</string>
+		<key>Name</key>
+		<string>Keychain Access</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Keychain Access.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.SystemProfiler</string>
+		<key>Name</key>
+		<string>System Information</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/System Information.app</string>
+	</dict>
+	<dict>
+		<key>Name</key>
+		<string>java</string>
+		<key>NewFile</key>
+		<string>/Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.garageband10</string>
+		<key>Name</key>
+		<string>GarageBand</string>
+		<key>NewFile</key>
+		<string>/Applications/GarageBand.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.AppStore</string>
+		<key>Name</key>
+		<string>App Store</string>
+		<key>NewFile</key>
+		<string>/Applications/App Store.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.iCal</string>
+		<key>Name</key>
+		<string>Calendar</string>
+		<key>NewFile</key>
+		<string>/Applications/Calendar.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.FontBook</string>
+		<key>Name</key>
+		<string>Font Book</string>
+		<key>NewFile</key>
+		<string>/Applications/Font Book.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.mail</string>
+		<key>Name</key>
+		<string>Mail</string>
+		<key>NewFile</key>
+		<string>/Applications/Mail.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.microsoft.Word</string>
+		<key>Name</key>
+		<string>Microsoft Word</string>
+		<key>NewFile</key>
+		<string>/Applications/Microsoft Office 2011/Microsoft Word.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.microsoft.Excel</string>
+		<key>Name</key>
+		<string>Microsoft Excel</string>
+		<key>NewFile</key>
+		<string>/Applications/Microsoft Office 2011/Microsoft Excel.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.cef.cefclient</string>
+		<key>Name</key>
+		<string>NaverComicViewer</string>
+		<key>NewFile</key>
+		<string>/Applications/NaverComicViewer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.GoPro.goproapp</string>
+		<key>Name</key>
+		<string>GoPro Quik</string>
+		<key>NewFile</key>
+		<string>/Applications/GoPro Quik.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.niltsh.MPlayerX</string>
+		<key>Name</key>
+		<string>MPlayerX</string>
+		<key>NewFile</key>
+		<string>/Applications/MPlayerX.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.gretech.gom</string>
+		<key>Name</key>
+		<string>GOM Player</string>
+		<key>NewFile</key>
+		<string>/Applications/GOM Player/GOM Player.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.ActivityMonitor</string>
+		<key>Name</key>
+		<string>Activity Monitor</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Activity Monitor.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.DiskUtility</string>
+		<key>Name</key>
+		<string>Disk Utility</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Disk Utility.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.print.PrinterProxy</string>
+		<key>Name</key>
+		<string>Samsung C48x Series (SEC842519072CD2)</string>
+		<key>NewFile</key>
+		<string>~/Library/Printers/Samsung C48x Series (SEC842519072CD2).app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Dictionary</string>
+		<key>Name</key>
+		<string>Dictionary</string>
+		<key>NewFile</key>
+		<string>/Applications/Dictionary.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.dvaaudiofilterscan.application</string>
+		<key>Name</key>
+		<string>dvaaudiofilterscan</string>
+		<key>NewFile</key>
+		<string>/Applications/Adobe Premiere Pro CC 2018/Adobe Premiere Pro CC 2018.app/Contents/dvaaudiofilterscan.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.anaconda.io</string>
+		<key>Name</key>
+		<string>Anaconda-Navigator</string>
+		<key>NewFile</key>
+		<string>~/anaconda3/Anaconda-Navigator.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.bohemiancoding.sketch3</string>
+		<key>Name</key>
+		<string>Sketch</string>
+		<key>NewFile</key>
+		<string>/Applications/Sketch.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.agilebits.onepassword7-updater</string>
+		<key>Name</key>
+		<string>1Password Updater</string>
+		<key>NewFile</key>
+		<string>/Applications/1Password 7.app/Contents/XPCServices/1Password Updater Service.xpc/Contents/Helpers/1Password Updater.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.ame.application.CC12</string>
+		<key>Name</key>
+		<string>Adobe Media Encoder CC 2018</string>
+		<key>NewFile</key>
+		<string>/Applications/Adobe Media Encoder CC 2018/Adobe Media Encoder CC 2018.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.installer</string>
+		<key>Name</key>
+		<string>Installer</string>
+		<key>NewFile</key>
+		<string>/System/Library/CoreServices/Installer.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.adobe.PDApp</string>
+		<key>Name</key>
+		<string>PDApp</string>
+		<key>NewFile</key>
+		<string>/Library/Application Support/Adobe/OOBE/PDApp/core/PDApp.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.virtualbox.app.VirtualBox</string>
+		<key>Name</key>
+		<string>VirtualBox</string>
+		<key>NewFile</key>
+		<string>/Applications/VirtualBox.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.virtualbox.app.VirtualBoxVM</string>
+		<key>Name</key>
+		<string>VirtualBoxVM</string>
+		<key>NewFile</key>
+		<string>/Applications/VirtualBox.app/Contents/Resources/VirtualBoxVM.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.iMovieApp</string>
+		<key>Name</key>
+		<string>iMovie</string>
+		<key>NewFile</key>
+		<string>/Applications/iMovie.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Photos</string>
+		<key>Name</key>
+		<string>Photos</string>
+		<key>NewFile</key>
+		<string>/Applications/Photos.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Image_Capture</string>
+		<key>Name</key>
+		<string>Image Capture</string>
+		<key>NewFile</key>
+		<string>/Applications/Image Capture.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>org.chromium.Chromium</string>
+		<key>Name</key>
+		<string>Chromium</string>
+		<key>NewFile</key>
+		<string>~/Salesboost/platforms-api/node_modules/puppeteer/.local-chromium/mac-662092/chrome-mac/Chromium.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.runningwithcrayons.Alfred-Preferences-3</string>
+		<key>Name</key>
+		<string>Alfred Preferences</string>
+		<key>NewFile</key>
+		<string>/Applications/Alfred 3.app/Contents/Preferences/Alfred Preferences.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.Safari</string>
+		<key>Name</key>
+		<string>Safari</string>
+		<key>NewFile</key>
+		<string>/Applications/Safari.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>Naver-Corp..UpdateWindow</string>
+		<key>Name</key>
+		<string>UpdateWindow</string>
+		<key>NewFile</key>
+		<string>/Applications/NaverComicViewer.app/Contents/Resources/UpdateWindow.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.ScriptEditor2</string>
+		<key>Name</key>
+		<string>Script Editor</string>
+		<key>NewFile</key>
+		<string>/Applications/Utilities/Script Editor.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.microsoft.EquationEditor</string>
+		<key>Name</key>
+		<string>Equation Editor</string>
+		<key>NewFile</key>
+		<string>/Applications/Microsoft Office 2011/Office/Equation Editor.app</string>
+	</dict>
+	<dict>
+		<key>BundleIdentifier</key>
+		<string>com.apple.AddressBook</string>
+		<key>Name</key>
+		<string>Contacts</string>
+		<key>NewFile</key>
+		<string>/Applications/Contacts.app</string>
+	</dict>
+</array>
+</plist>

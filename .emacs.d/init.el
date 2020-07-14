@@ -6,6 +6,7 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (add-to-list 'custom-theme-load-path "~/.emacs.d/themes/")
 (add-to-list 'default-frame-alist '(ns-transparent-titlebar . t))
+(add-to-list 'package-pinned-packages '(elixir-mode . "melpa-stable") t)
 
 ;; Custom Utils
 (require 'init-utils)
@@ -14,6 +15,8 @@
 (require 'evil)
 (require 'smex)
 (require 'tide)
+(require 'package)
+(require 'haskell-mode)
 (require 'ivy-explorer)
 (require 'flycheck)
 (require 'web-mode)
@@ -35,32 +38,41 @@
 (setq ivy-height 30)
 (global-display-line-numbers-mode 1)	
 
-
 ;;------------------------------------------------------------
 ;; Custom 셋업
 ;;------------------------------------------------------------
 
-
+(editorconfig-mode 1)
+;; VIM setup
 (define-key evil-normal-state-map (kbd "C-u") 'evil-scroll-up)
+(define-key evil-normal-state-map (kbd "s-r") 'undo-tree-redo)
 (define-key evil-insert-state-map (kbd "C-<space>") 'company-complete)
+(define-key ivy-minibuffer-map (kbd "C-q") 'minibuffer-keyboard-quit)
+(define-key ivy-minibuffer-map (kbd "C-]") 'minibuffer-keyboard-quit)
+(define-key ivy-minibuffer-map (kbd "s-f") 'minibuffer-keyboard-quit)
+(define-key ivy-minibuffer-map (kbd "s-F") 'minibuffer-keyboard-quit)
+(setq-default evil-ex-substitute-global t)
+
 (global-set-key (kbd "M-x") 'counsel-M-x)
-(global-set-key (kbd "C-x o") 'open-file-at-cursor)        ;; open file under the cursor
+(global-set-key (kbd "C-x o") 'open-file-at-cursor)
 (global-set-key (kbd "C-s") 'counsel-M-x)
-(global-set-key (kbd "C-n") 'find-file)
+(global-set-key (kbd "C-]") 'find-file)
 (global-set-key (kbd "C-c d") 'tide-jump-to-definition)
 (global-set-key (kbd "C-c r") 'tide-references)
 (global-set-key (kbd "C-c C-w") 'kill-buffer-and-return-previous)  
 (global-set-key (kbd "s-w") 'kill-buffer-and-return-previous)       ;; close의 의미
 (global-set-key (kbd "s-2") 'jump-to-cursor)
-(global-set-key (kbd "C-]") 'other-window)
-(global-set-key (kbd "C-[") 'other-window)
 (global-set-key (kbd "s-]") 'other-window)
-(global-set-key (kbd "s-[") (lambda ()
-                              (interactive)
-                              (other-window -1)))
+(global-set-key (kbd "s-p") 'find-file-in-project)    ;; find file in project
+(global-set-key (kbd "s-b") 'ibuffer)            ;; list buffer
+(global-set-key (kbd "s-/") 'comment-line)
 (global-set-key (kbd "s-f") 'swiper)
 (global-set-key (kbd "s-F") 'counsel-rg)
-(editorconfig-mode 1)
+(global-set-key (kbd "s-t")  'new-empty-buffer)
+(global-set-key (kbd "s-<left>") 'move-beginning-of-line)
+(global-set-key (kbd "s-<right>") 'move-end-of-line)
+(global-set-key (kbd "s-<right>") 'move-end-of-line)
+(global-set-key (kbd "M-r") 'setup-tide-mode)
 
 
 ;; 타이틀바 색깔 맞추는 스크립트
@@ -76,6 +88,7 @@
   (eldoc-mode +1)
   (tide-hl-identifier-mode +1)
   (setq tide-completion-detailed t)
+  (setq web-mode-enable-auto-quoting nil)
   (company-mode +1))
 ;; aligns annotation to the right handa side
 (setq company-tooltip-align-annotations t)
@@ -101,6 +114,10 @@
 ;; Also auto refresh dired, but be quiet about it
 (setq global-auto-revert-non-file-buffers t)
 (setq auto-revert-verbose nil)
+(defun revert-buffer-no-confirm ()
+  "Revert buffer without confirmation."
+  (interactive) (revert-buffer t t))
+(global-set-key (kbd "C-c r")  'revert-buffer-no-confirm)
 
 ;;--------------------------------------------
 ;; markdown mode
@@ -122,15 +139,13 @@
     ("b4c35bb33fc148be174fb18d21ab73ee440faae501ccb9b15f4398eabffea79c" default)))
  '(package-selected-packages
    (quote
-    (auto-compile typescript web-mode tide smex ivy-explorer golden-ratio evil editorconfig))))
+    (elixir-mode terraform-mode go-mode lsp-haskell find-file-in-project auto-compile typescript web-mode tide smex ivy-explorer golden-ratio evil editorconfig))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
-
-
 
 ;; open file path under the cursor
 (defun open-file-at-cursor ()
@@ -194,6 +209,13 @@ Version 2018-02-21"
             (when (y-or-n-p (format "file no exist: 「%s」. Create?" $path))
               (find-file $path ))))))))
 
+;; Global macro
+(defun semicolon-macro ()
+  (interactive)
+  (end-of-line)
+  (insert ";"))
+(global-set-key (kbd "s-;") 'semicolon-macro)
+
 (defun bjm/ivy-yank-whole-word ()
   "Pull next word from buffer into search string."
   (interactive)
@@ -212,3 +234,7 @@ Version 2018-02-21"
 ;; bind it to M-j
 
 (define-key ivy-minibuffer-map (kbd "s-f") 'bjm/ivy-yank-whole-word)
+
+;; disable evil mouse motion for performance issue
+;; https://stackoverflow.com/questions/46513910/emacs-evil-mode-binding-mouse-event
+(with-eval-after-load 'evil-maps (define-key evil-motion-state-map [down-mouse-1] nil))

@@ -1,0 +1,45 @@
+
+;; ----- smex-history -----
+(
+ package-refresh-contents
+ package-install
+ load-file
+ haskell-mode
+ company-complete
+ shell-command
+ counsel-rg
+)
+
+;; ----- smex-data -----
+(
+ (load-file . 13)
+ (kill-buffer . 3)
+ (load-theme . 2)
+ (package-refresh-contents . 12)
+ (tide-mode . 1)
+ (typescript-mode . 1)
+ (package-install . 19)
+ (rename-buffer . 1)
+ (revert-buffer . 2)
+ (describe-bindings . 1)
+ (compile . 3)
+ (buffer-menu . 7)
+ (emacs-lisp-byte-compile . 9)
+ (editorconfig-mode . 2)
+ (indent-region . 5)
+ (describe-variable . 1)
+ (dired-do-copy . 2)
+ (copy-file . 1)
+ (editorconfig-find-current-editorconfig . 1)
+ (flycheck-describe-checker . 1)
+ (flycheck-select-checker . 2)
+ (occur . 1)
+ (counsel-rg . 12)
+ (counsel-ibuffer . 1)
+ (mouse-buffer-menu . 1)
+ (tide-goto-error . 3)
+ (flycheck-next-error . 15)
+ (company-complete . 9)
+ (shell-command . 4)
+ (haskell-mode . 1)
+)

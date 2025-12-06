@@ -7,18 +7,27 @@ Personal configuration files
 ```bash
 # Clone the repo
 cd ~
-git clone https://github.com/YOUR_USERNAME/dotfiles.git
+git clone git@github.com:joseph9252/dotfiles.git
 
 # Create symlinks
 ln -sf ~/dotfiles/tmux.conf ~/.tmux.conf
+ln -sf ~/dotfiles/vimrc ~/.vimrc
+ln -sf ~/dotfiles/zshrc ~/.zshrc
+
+# Setup secrets file (important!)
+cp ~/dotfiles/secrets.template ~/.secrets
+# Edit ~/.secrets and add your actual API keys and tokens
 
 # Install tmux (if not installed)
 brew install tmux
 
-# Reload tmux config (if already in tmux)
-tmux source-file ~/.tmux.conf
+# Reload configs
+tmux source-file ~/.tmux.conf  # if in tmux
+source ~/.zshrc                # reload zsh
 ```
 
 ## Files
 
 - `tmux.conf` - tmux configuration
+- `vimrc` - vim configuration
+- `zshrc` - zsh shell configuration
